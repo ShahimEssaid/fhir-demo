@@ -1,4 +1,4 @@
-name: IG build entry workflow
+name: minimal-demo-r4
 
 # Setup:
 # 1. Copy this file and name it to match the IG folder name to help relate the file to the IG. The file name it not
