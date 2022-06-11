@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"json.schemas": [
+			{
+				"url": "./fw-schemas/4.0.1/resource.json",
+				"fileMatch": [
+					"/fw-ig/*-r4/input/**/*.json",
+					"/fw-examples/**/*-r4.json"
+				]
+			},
+			{
+				"url": "./fw-schemas/4.0.1/example.json",
+				"fileMatch": [
+					"/fw-examples/**/*-r4e.json"
+				]
+			},
+			{
+				"url": "./fw-schemas/5.2022.02.22/resource.json",
+				"fileMatch": [
+					"/fw-ig/*-r5/input/**/*.json",
+					"/fw-examples/**/*-r5.json"
+				]
+			},
+			{
+				"url": "./fw-schemas/5.2022.02.22/example.json",
+				"fileMatch": [
+					"/fw-examples/**/*-r5e.json"
+				]
+			}
+		],
+		"yaml.schemas": {
+			"./fw-schemas/4.0.1/resource.json": [
+				"/fw-ig/*-r4/input/**/*.yaml",
+				"/fw-examples/**/*-r4.yaml"
+			],
+			"./fw-schemas/5.2022.02.22/resource.json": [
+				"/fw-ig/*-r5/input/**/*.yaml",
+				"/fw-examples/**/*-r5.yaml"
+			]
+		},
+		"json.maxItemsComputed": 50000,
+		"editor.tabSize": 2,
+	}
+}
