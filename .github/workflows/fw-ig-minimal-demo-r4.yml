@@ -90,10 +90,6 @@ jobs:
            echo EXITING DUE TO UNKNOWN EVENT NAME.
            exit 1
           fi
-      - id: summary-test
-        name: Trying summary output
-        run: |
-          echo "Merge build site: [Google](https://www.google.com)" >> $GITHUB_STEP_SUMMARY
 
   build:
     needs: vars
